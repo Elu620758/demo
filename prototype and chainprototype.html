@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var Employee=(firstName,lastName)=>//this is protoype based class
+        // {
+        //     this.firstName=firstName;
+        //     this.lastName=lastName;
+        // }
+
+        // Employee.prototype.fullName=function()         //method creation
+        // {
+        //     return this.firstName+""+this.lastName;
+
+        // }
+
+        // var company1=new Employee("elumalai","maadhavan");
+        // var company2=new Employee("nallapalayam","maadhavaram");
+        // document.write(Employee.company1.fullName()+"<br>");
+        // document.write(Employee.company2.fullName()+"<br>");
+        // console.log(Employee.company1.fullName()+"<br>");
+
+
+        function Person(first, last, age, eyecolor) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eyecolor;
+}
+
+const myFather = new Person("John", "Doe", 50, "blue");
+const myMother = new Person("Sally", "Rally", 48, "green");
+document.write(Person.myFather.firstName+"  "+lastName+"  "+age+"  " +eyeColor)
+document.write(Person.myMother.firstName+"  "+lastName+"  "+age+"  " +eyeColor)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
